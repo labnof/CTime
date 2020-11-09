@@ -16,4 +16,10 @@
         <listener class="com.github.labnof.ctime.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
+    <actions>
+        <group id="CTime.Clock" text="CTime" description="Current time">
+            <add-to-group group-id="HelpMenu" anchor="last"/>
+            <action class="com.github.labnof.ctime.actions.ShowTimeAction" id="CTime.Actions.HelloAction" text="Time"/>
+        </group>
+    </actions>
 </idea-plugin>
