@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.labnof.ctime.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.labnof.ctime.MyBundle
 
 class MyApplicationService {
 
